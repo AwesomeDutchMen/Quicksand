@@ -61,7 +61,7 @@ public class QuicksandPlugin extends JavaPlugin
 
 		this.getCommand("quicksand").setExecutor(new QuicksandCommandExecutor(this));
 		this.getCommand("qs").setExecutor(new QuicksandCommandExecutor(this));
-		this.chatApi = new ChatApi(this, ChatColor.YELLOW + "[Quicksand] " + ChatColor.RESET);
+		this.chatApi = new ChatApi(this, ChatColor.YELLOW + "[BereTNT] " + ChatColor.RESET);
 
 		Metadata.setPlugin(this);
 
